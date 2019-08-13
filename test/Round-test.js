@@ -38,7 +38,13 @@ describe('Round', () => {
       "id": 1, 
       "question": "What allows you to define a set of related information using key-value pairs?", 
       "answers": ['object', 'array', 'function'], 
-      "correctAnswer": "object"})
+      "correctAnswer": "object"});
+    round.takeTurn('object');
+    expect(round.returnCurrentCard()).to.eql({
+      "id": 2,
+      "question": "What is a comma-separated list of related values?",
+      "answers": ["array", "object", "function"],
+      "correctAnswer": "array"});
   });
 
   it('should update the turns count', () => {
