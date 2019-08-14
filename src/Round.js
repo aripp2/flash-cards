@@ -6,6 +6,7 @@ class Round {
     this.turns = 0;
     this.currentCard;
     this.incorrectGuesses = [];
+    this.startTime = Date.now();
   }
 
   returnCurrentCard() {
@@ -28,8 +29,16 @@ class Round {
     return +(((this.turns - this.incorrectGuesses.length) / this.turns) * 100).toFixed(2);
   }
 
+  caluculateTime() {
+    this.endTime = Date.now();
+    let playTime = this.endTime - this.startTime;
+    var minutes = Math.floor(playTime / 60000);
+    var seconds = ((playTime % 60000) / 1000).toFixed(0);
+    return `${minutes} minutes and ${seconds} seconds.`;
+  }
+
   endRound() {
-    return  `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
+    return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly! It took you ${this.caluculateTime()}`;
   }
 }
 
