@@ -15,7 +15,7 @@ FlashCards is a game played in the command line. The game is written in JavaScri
 
 ## Example of Game Play
 
-![FlashCards example gif](https://media.giphy.com/media/XEgVcJFi6hTWctweqd/200w_d.gif)
+![FlashCards example gif](https://media.giphy.com/media/fq7824Uz8FSvzh3ALs/giphy.gif)
 
 ## Install and Play the Game
 
