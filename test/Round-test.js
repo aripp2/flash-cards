@@ -70,7 +70,7 @@ describe('Round', () => {
     round.takeTurn('object');
     round.takeTurn('array');
     round.takeTurn('iteration method');
-    expect(round.endRound()).to.equal('** Round over! ** You answered 66.67% of the questions correctly!')
+    expect(round.endRound()).to.equal('** Round over! ** You answered 66.67% of the questions correctly! It took you 0 minutes and 0 seconds.')
   });
 
 
