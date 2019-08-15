@@ -1,8 +1,9 @@
 # FlashCards 
 
+---
+
 ### Created by: Amy Rippeto - Turing School of Software & Design Student
 
----
 
 ## Objective:
 
@@ -14,7 +15,7 @@ FlashCards is a game played in the command line. The game is written in JavaScri
 
 ## Example of Game Play
 
-![FlashCards example gif](https://giphy.com/gifs/XEgVcJFi6hTWctweqd/html5)
+![FlashCards example gif](https://media.giphy.com/media/XEgVcJFi6hTWctweqd/200w_d.gif)
 
 ## Install and Play the Game
 
