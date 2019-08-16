@@ -15,10 +15,4 @@ describe('Game', () => {
     expect(Game).to.be.a('function');
   });
 
-  it('should start a game', () => {
-    game.startGame();
-    // expect(game)
-  });
-
-
 });

@@ -30,8 +30,8 @@ class Round {
   }
 
   caluculateTime() {
-    this.endTime = Date.now();
-    let playTime = this.endTime - this.startTime;
+    let endTime = Date.now();
+    let playTime = endTime - this.startTime;
     var minutes = Math.floor(playTime / 60000);
     var seconds = ((playTime % 60000) / 1000).toFixed(0);
     return `${minutes} minutes and ${seconds} seconds.`;
